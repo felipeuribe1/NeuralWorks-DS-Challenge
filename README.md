@@ -15,10 +15,14 @@ Contiene los siguientes archivos:
 ## Instalación
 Antes de ejecutar DS_Challenge_Furibe.ipynb, se deben instalar las librerías.
 <br>
+
 Conda
-<br>
-```conda install --yes --file requirements.txt```
-<br>
+```
+conda config --append channels conda-forge
+conda install --yes --file requirements.txt
+```
+
 Pip
-<br>
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
